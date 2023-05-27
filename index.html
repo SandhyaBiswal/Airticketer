@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight_booking</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Bootstrap/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="d-flex justify-content-between pt-4">
+         <div>
+          <img src="./image/logo.png" alt="">
+         </div>
+         <div class="nav">
+          <ul class="d-flex justify-content-between">
+            <li><a href="" class="actlink inactlink">Flight</a></li>
+            <li><a href="" class="inactlink">Hotel</a></li>
+            <li><a href="" class="inactlink">Contact Us</a></li>
+            <li><a href="" class="inactlink">More</a></li>
+          </ul>
+         </div class="d-flex justify-content-between">
+         <i class="fa-solid fa-indian-rupee-sign me-3"></i>
+         <i class="fa-solid fa-globe me-3"></i>
+         <div>
+          <h6>Login/Register</h6>
+         </div>
+      </div>
+    </div>
+  </header>
+  <!-------------------------------Alert Section----------------------->
+  <section>
+    <div class="container">
+      <div class="center-box mt-3">
+      <div class="row">
+        <div class="col-4">
+          <div class="bell-icon">
+            <i class="fa-regular fa-bell text-black"></i>
+          </div>
+        </div>
+        <div class="col-6 d-flex align-items-center justify-content-center flex-column">
+          <h4 class="sentence text-end text-warning">Travel Agency Alert.</h4>
+              <p class="additional-line text-end">This is another line.</p>
+      </div>
+      <div class="col-2 d-flex align-items-start justify-content-end">
+        <div class="cross-icon">
+          <i class="fa-solid fa-times close-icon"></i>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+<!-------------------------------------plnTrip------------------------------------->
+    <div class="container">
+      <div class="row left">
+        <div class="col-6">
+          <h1 class="trip-pln">Plan Your Trip</h1>
+          <div class="d-flex">
+            <div class="me-3">
+              <input type="radio" name="radio">
+              <label for="">One-way</label>
+            </div>
+            <div class="me-3">
+              <input type="radio" name="radio">
+              <label for="">return</label>
+            </div>
+            <div class="me-3">
+              <input type="radio" name="radio">
+              <label for="">Multi-city</label>
+            </div>
+          </div>  
+            <div class="trip-data">
+               <div>
+                <input type="text" placeholder="From" class="inputdetails">
+                <input type="text" placeholder="To" class="inputdetails">
+               </div>
+               <div>
+                <input type="text" placeholder="Departure" class="inputdetails">
+                <input type="text" placeholder="Return" class="inputdetails">
+               </div>
+               <div class="d-flex">
+                <div class="d-flex age">
+                  <div class="me-3">
+                    <p>Adults</p>
+                    <div class="noofpeople">
+                      <button class="count"><i class="fa-solid fa-plus sign"></i></button><span class="zero">0
+                       </span><button class="count"><i class="fa-solid fa-minus sign"></i></button>
+                    </div>
+                  </div>
+                  <div class="me-3">
+                    <p>Child</p>
+                    <div class="noofpeople">
+                      <button class="count"><i class="fa-solid fa-plus sign"></i></button><span class="zero">0
+                       </span><button class="count"><i class="fa-solid fa-minus sign"></i></button>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Infants</p>
+                    <div class="noofpeople">
+                      <button class="count"><i class="fa-solid fa-plus sign"></i></button><span class="zero">0
+                       </span><button class="count"><i class="fa-solid fa-minus sign"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="classes">
+                  <p>Class</p>
+                  <select name="" id="">
+                    <option value="">--select--</option>
+                    <option value="">Economy</option>
+                    <option value="">Business</option>
+                  </select>
+                </div>
+               </div>
+            </div>
+          
+        </div>
+          <div class="col-6">
+            <div class="right">
+              <img src="./image/image1.png" alt="" class="img1">
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="container">
+        <div class="row sec2_">
+            <div class="sec2_head">
+                <h1>Exploring the world with comfort with travel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ad ipsum accusamus cum voluptate
+                    ex fuga.</p>
+            </div>
+            <div class="imgdiv">
+              <div class="col-3">
+                <img src="./Image/side2.png" alt=""class="Exploring">
+                <div>
+                    <h4>05</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur </p>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="./Image/side3.png" alt="" class="Exploring">
+                <h4>05</h4>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="col-3">
+                <img src="./Image/side4.png" alt="" class="Exploring">
+                <h4>05</h4>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="col-3">
+                <img src="./Image/flight.png" alt="" class="Exploring">
+                <h4>05</h4>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hotel">
+  <div class="container">
+    <h6 class="subtitle">Top hotel Destination</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusai. Amet voluptatem adipisci iusto
+      nemo!</p>
+      <div class="row">
+        <div class="col-4">
+          <h5>All are Welcome</h5>
+          <img src="./image/img-6.png" alt="" width="100%">
+          <div class="d-flex justify-content-between">
+            <div class="money">
+              <p>$ 1399</p>
+              <div>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-warning mt-3">View Details</button>
+          </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <h5>All are Welcome</h5>
+          <img src="./image/img-7.png" alt="" width="100%">
+          <div class="d-flex justify-content-between">
+            <div class="money">
+              <p>$ 1399</p>
+              <div>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-warning mt-3">View Details</button>
+          </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <h5>All are Welcome</h5>
+          <img src="./image/img-6.png" alt="" width="100%">
+          <div class="d-flex justify-content-between">
+            <div class="money">
+              <p>$ 1399</p>
+              <div>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+                <i class="fa-solid fa-star Destination"></i>
+            </div>
+          </div>
+          <div>
+            <button type="button" class="btn btn-warning mt-3">View Details</button>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<section class="ticketer">
+  <div class="ticketer_header">
+    <h1 class="subtitle">Why Air Ticketer</h1>
+    <p style="color: darkblue;">Discuss your goals determines success metric identity solution</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="image-container ml-5 ">
+          <div class="m-5">
+            <img src="./image/img-8.png" alt="" width="150px">
+            <div>
+              <h5>Best Services</h5>
+              <p class="p">A versitile Platform where we can easily register and book your travel requirement 3 simple steps</p>
+            </div>
+
+          </div>
+          <div class="m-5">
+            <img src="./image/img-9.png" alt="" width="150px">
+            <div>
+              <h5>Amazing Deals</h5>
+              <p class="p">A versitile Platform where we can easily register and book your travel requirement 3 simple steps</p>
+            </div>
+
+          </div>
+          <div class="m-5">
+            <img src="./image/img-10.png" alt="" width="150px">
+            <div>
+              <h5>Affordable Price</h5>
+              <p class="p">A versitile Platform where we can easily register and book your travel requirement 3 simple steps</p>
+            </div>
+
+          </div>
+          <div class="m-5">
+            <img src="./image/img-11.png" alt="" width="150px">
+            <div>
+              <h5>100%Satisfaction</h5>
+              <p class="p">A versitile Platform where we can easily register and book your travel requirement 3 simple steps</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="ticketer_header">
+      <h1 class="subtitle">Our Airline Partner</h1>
+      <p>Our Partner is our main contractor, it will work with your business plan to develop a custom offer & deal for you</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="image-container ml-5 mt-5">
+            <div class="m-5">
+              <img src="./image/img-12.png" alt="">
+            </div>
+            <div class="m-5">
+              <img src="./image/img-13.png" alt="">
+            </div>
+            <div class="m-5">
+              <img src="./image/img-14.png" alt="">
+            </div>
+            <div class="m-5">
+              <img src="./image/img-15.png" alt="">
+            </div>
+            <div class="m-5">
+              <img src="./image/img-16.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!---------------------------------------------Footer------------------------->>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="image-container">
+          <div class="last">
+            <h5>Quick Links</h5>
+            <ul>
+              <li>
+                <h6>Home</h6>
+              </li>
+              <li>
+                <h6>About Us</h6>
+              </li>
+              <li>
+                <h6>Contact Us</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="image-container">
+          <div class="last">
+            <h5>Support & Help</h5>
+            <ul>
+              <li>
+                <h6>Privacy & Policy</h6>
+              </li>
+              <li>
+                <h6>FAQ</h6>
+              </li>
+              <li>
+                <h6>Refund Policy</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="image-container">
+          <div class="last">
+            <h5>Partner With us</h5>
+            <ul>
+              <li>
+                <h6>Become an Agent</h6>
+              </li>
+              <li>
+                <h6>User Agreement</h6>
+              </li>
+              <li>
+                <h6>Testimonials</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="image-container">
+          <div class="last">
+            <h5>Keep in Touch</h5>
+            <div class="nav">
+              <ul class="social-icons image-container">
+                 <li><i class="fa-brands fa-facebook"></i></li>
+                 <li><i class="fa-brands fa-instagram"></i></li>
+                 <li><i class="fa-brands fa-twitter"></i></li>
+                 <li><i class="fa-brands fa-youtube"></i></li>
+                 <li><i class="fa-brands fa-whatsapp"></i></li>
+              </ul>
+            </div>
+            <div>
+              <div>
+                <ul class="nav">
+                  <li><i class="fa-solid fa-message"></i></li>
+                  <h6>24/7 Customer support</h6>
+                  <h4>1800-313-7890</h4>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image-container end">
+        <img src="./image/logo.png" alt="">
+        <div class="text-right">
+          <p>&copy;opyright 2023 by Air ticketer .<br> All right reserved</p>
+        </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
